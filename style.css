@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height:60px;
+    background-color: blueviolet;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+  
+}
+.logo{
+    background-image: url("https://marcas-logos.net/wp-content/uploads/2021/07/Mo-logo.png") ;
+    height: 75px;
+    width: 100%;
+    margin-left: 20px;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-first{
+    color:antiquewhite;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+.add-sec{
+   font-size: 1rem;
+   margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+.search-icon{
+    color: black;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-select{
+    background-color: blanchedalmond;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: lightyellow;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: .85rem;
+    font-weight: 700;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.nav-cart i{
+    font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+   display: inline;
+   margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: .9rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url("https://th.bing.com/th/id/OIG.bANcUFds9wn060vufQCU?pid=ImgGn");
+    background-size:  cover;
+    background-position:center ;
+    height: 600px; 
+    background-repeat : no-repeat;
+}
+.logo{
+    font-size: 30px;
+    color: black;
+    font: italic;
+}
+.tagline{
+     height: 40px; 
+    background-color: lightpink;
+  
+  
+    font-size: 20px;
+    color: rgb(21, 38, 231);
+      display: flex; 
+  
+    justify-content: center; 
+
+}
+.shop-section{
+    display: flex;flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: aliceblue;
+   margin-top: 15px;
+    padding: 20px 0px 15px;
+}
+.box-img{
+    height: 300px;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+     background-image: cover; 
+}
+.box-img2{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  background-size: contain;  
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color:blue
+}
+footer{
+    margin-top: 15px;
+   
+}
+.foot-panel1{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-panel2{
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: .85rem;
+    margin-top: 10px;
+}
+ul{
+    margin-top: 20px;
+}
+.s{
+    font-size: medium;
+}
+.deals{
+    cursor: pointer;
+}
